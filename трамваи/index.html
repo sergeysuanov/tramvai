@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Счетчик калорий</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+		<header>
+			<div class=" h1cont"><div class="hclass"><h1>Счетчик калорий</h1> <a class="osnpr" href="sec.html">основные продукты
+
+			</a></div></div>
+		</header>
+		<main>
+			<div class="container">
+				<div class="content_container">
+					<h2 class="gender_title">Пол</h2>
+					<div class="gender">
+						<label class="gender_male">
+							<input type="radio" name="gender" class="gender_choice"value="male" id="male" checked>Мужчина
+						</label>
+						<label class="gender_female">
+							<input type="radio" name="gender" class="gender_choice" id = "female" value="female">Женщина
+						</label>
+					</div>
+					<div class="physical_information">
+						<div>
+							<div class="age_title">
+								<h2>Возраст</h2>
+								<p class="unit_of_measure">лет</p>
+							</div>
+							<input type="text" name="age"  class="input_field" id="age" value="0">
+						</div>
+						<div>
+							<div class="height_title">
+								<h2>Рост</h2>
+								<p class="unit_of_measure">см</p>
+							</div>
+							<input type="text" name="height" class="input_field" id = "height"value="0">
+						</div>
+						<div>
+							<div class="weight_title">
+								<h2>Вес</h2>
+								<p class="unit_of_measure">кг</p>
+							</div>
+							<input type="text" name="weight"  class="input_field" id="weight" value="0">
+						</div>
+					</div>
+					<div class="physical_activity">
+						<h2 class="phys_act_title">Физическая активность</h2>
+							<label>
+								<div class="activity_type">
+									<input type="radio" name="phys_act" checked class="phys_act min_phys_act" value="min">
+									<h3 class="activity_type_text">Минимальная</h3>
+								</div>
+							</label>
+							<p class="phys_act_description">Сидячая работа и нет физических нагрузок</p>
+							<label>
+								<div class="activity_type">
+									<input type="radio" name="phys_act" class="phys_act" value="low">
+									<h3 class="activity_type_text">Низкая</h3>
+								</div>
+							</label>
+							<p class="phys_act_description">Редкие, нерегулярные тренировки, активность в быту</p>
+							<label>
+								<div class="activity_type">
+									<input type="radio" name="phys_act" class="phys_act" value="average">
+									<h3 class="activity_type_text">Средняя</h3>
+								</div>
+							</label>
+							<p class="phys_act_description">Тренировки 3-5 раз в неделю</p>
+							<label>
+								<div class="activity_type">
+									<input type="radio" name="phys_act" class="phys_act" value="high">
+									<h3 class="activity_type_text">Высокая</h3>
+								</div>
+							</label>
+							<p class="phys_act_description">Тренировки 6-7 раз в неделю</p>
+							<label>
+								<div class="activity_type">
+									<input type="radio" name="phys_act" class="phys_act" value="very_high">
+									<h3 class="activity_type_text">Очень высокая</h3>
+								</div>
+							</label>
+							<p class="phys_act_description">Больше 6 тренировок в неделю и физическая работа</p>
+					</div>
+					<div class="buttons">
+						<button type="submit" class="count_button" >Рассчитать</button>
+						<button type="submit" class ="clear_button">✖ Очистить поля и расчёт</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer hidden_container">
+			<div class="container">
+				<div class="content_container">
+					<h2 class="result_title">Ваша норма калорий</h2>
+					<div class="result">
+						<div>
+							<p class="result_info maintenance">0 ккал</p>
+							<p class="result_info_description">поддержание веса</p>
+						</div>
+						<div>
+							<p class="result_info decline">0 ккал</p>
+							<p class="result_info_description">снижение веса</p>
+						</div>
+						<div>
+							<p class="result_info gain">0 ккал</p>
+							<p class="result_info_description">набор веса</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+</body>
+</html>

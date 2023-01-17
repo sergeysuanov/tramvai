@@ -1,0 +1,216 @@
+body {
+	background: url(img.jpg) ;
+	
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-blend-mode:hard-light;
+	
+}
+
+.container {
+	margin: 0 auto;
+	background: rgb(255, 255, 255);
+	width: 560px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+h1, h2, h3, p, input {
+	font-family: 'PT Sans Caption';
+	margin: 0;
+}
+header {
+	width: 560px;
+	height: 85px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+h1 {
+	color: rgb(0, 0, 0);
+	font-size: 44px;
+    line-height: 83px;
+	background-color: white;
+	border-radius: 15px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.hclass {
+display:flex;
+flex-direction: row;
+
+}
+.osnpr{color: rgb(255, 255, 255);
+	font-size: 15px;
+    line-height: 83px;
+	background-color: #1ba409;
+	border-radius: 15px;
+	margin-left: 5px;
+	font-family: 'PT Sans Caption';
+	font-weight: 900;
+	padding-left: 5px;
+	padding-right: 5px;
+    text-decoration: none;
+	}
+:hover.osnpr{
+	background-color: #157708;
+	 
+}
+
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 20px;
+	cursor:pointer;
+	font-weight: 400;
+
+
+}
+.content_container {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.gender {
+	border: 2px solid #1ba409;
+	border-radius: 5px;
+	display: flex;
+	margin-bottom: 40px;
+
+}
+.gender_choice {
+	appearance: none;
+}
+
+.gender_male {
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 17px;
+	cursor: pointer;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	font-family: 'PT Sans Caption';
+}
+.gender_female {
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 17px;
+	cursor: pointer;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	font-family: 'PT Sans Caption';
+}
+.gender_title {
+	margin-bottom: 15px;
+}
+.physical_information {
+	display: flex;
+	justify-content: space-between;
+}
+.age_title {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: flex-end;
+	cursor: pointer;
+	
+}
+.height_title {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: flex-end;
+	cursor: pointer;
+}
+.weight_title {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: flex-end;
+	cursor: pointer;
+}
+.input_field {
+	width: 60px;
+	height: 30px;
+	margin-bottom: 25px;
+	text-align: center;
+	border-radius: 9px;
+}
+.unit_of_measure {
+	color: grey;
+	padding-bottom: 0px;
+	line-height: 25px;
+	margin-left: 5px;
+}
+.activity_type {
+	display: flex;
+}
+.activity_type_text:hover {
+	color: #1ba409;
+}
+.phys_act_title {
+	margin-bottom: 15px;
+}
+.phys_act {
+	margin-right: 10px;
+}
+.phys_act_description {
+	margin-left: 23px;
+	color: #8f8f8f;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.buttons {
+	display: flex;
+	margin-top: 30px;
+}
+.count_button {
+	background: #1ba409;
+	width: 180px;
+	height: 55px;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-weight: 400;
+    font-size: 24px;
+    line-height: 15px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.clear_button {
+	display: flex;
+	cursor: pointer;
+	line-height: 50px;
+	font-size: 20px;
+	border: none;
+	 cursor: pointer;
+	 background: white;
+}
+.hidden_container {
+	display: none;
+}
+footer {
+	margin-bottom: 50px;
+}
+.result {
+	display: flex;
+	justify-content: space-between;
+}
+.result_title {
+	color: #1ba409;
+	margin-bottom: 20px;
+}
+.result_info {
+	font-weight: 700;
+    font-size: 20px;
+}
+.result_info_description {
+	color: #7e7e7e;
+	font-size: 18px;
+    line-height: 21px;
+    width: 103px;
+}
